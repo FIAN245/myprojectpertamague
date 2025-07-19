@@ -1,3 +1,3 @@
 # myprojectpertamague
 
-jadiginile
+jadiginile ini lagi nyoba 
