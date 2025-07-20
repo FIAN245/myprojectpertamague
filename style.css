@@ -1,14 +1,51 @@
+/* Reset margin dan padding default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Warna dan font dasar */
 body {
-  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigasi */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Konten utama */
+section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
   text-align: center;
-  padding-top: 100px;
-}
-
-h1 {
-  color: #2c3e50;
-}
-
-p {
+  margin-top: 40px;
+  padding: 15px;
+  background: #eee;
+  font-size: 0.9em;
   color: #555;
 }
