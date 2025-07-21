@@ -1,51 +1,41 @@
-/* Reset margin dan padding default */
+/* Reset dasar */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Warna dan font dasar */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
-  line-height: 1.6;
   padding: 20px;
 }
 
-/* Navigasi */
-nav {
-  background-color: #333;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 15px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Konten utama */
-section {
-  background: #fff;
+header {
+  background-color: #4CAF50;
+  color: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-bottom: 20px;
 }
 
-/* Footer */
+header h1 {
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 footer {
   text-align: center;
+  font-size: 14px;
+  color: #777;
   margin-top: 40px;
-  padding: 15px;
-  background: #eee;
-  font-size: 0.9em;
-  color: #555;
 }
